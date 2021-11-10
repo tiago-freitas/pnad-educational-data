@@ -1,0 +1,330 @@
+VARI,quesito,DESDE,TAM,categorias_dict
+V0101,Ano de referência,1,4,{}
+UF,Unidade da Federação,5,2,"{11: 'Rondônia', 12: 'Acre', 13: 'Amazonas', 14: 'Roraima', 15: 'Pará', 16: 'Amapá', 17: 'Tocantins', 21: 'Maranhão', 22: 'Piauí', 23: 'Ceará', 24: 'Rio Grande do Norte', 25: 'Paraíba', 26: 'Pernambuco', 27: 'Alagoas', 28: 'Sergipe', 29: 'Bahia', 31: 'Minas Gerais', 32: 'Espírito Santo', 33: 'Rio de Janeiro', 35: 'São Paulo', 41: 'Paraná', 42: 'Santa Catarina', 43: 'Rio Grande do Sul', 50: 'Mato Grosso do Sul', 51: 'Mato Grosso', 52: 'Goiás', 53: 'Distrito Federal'}"
+V0102,Número de controle,5,8,{}
+V0103,Número de série,13,3,{}
+V0301,Número de ordem,16,2,{}
+V0302,Sexo,18,1,"{2: 'Masculino', 4: 'Feminino'}"
+V3031,Dia de nascimento,19,2,{0: 'Em caso de idade presumida ou estimada'}
+V3032,Mês de nascimento,21,2,{20: 'Em caso de idade presumida ou estimada'}
+V3033,Ano de nascimento,23,4,{}
+V8005,Idade do morador na data de referência,27,3,{}
+V0401,Condição na unidade domiciliar,30,1,"{1: 'Pessoa de referência', 2: 'Cônjuge', 3: 'Filho', 4: 'Outro parente', 5: 'Agregado', 6: 'Pensionista', 7: 'Empregado doméstico', 8: 'Parente do empregado doméstico'}"
+V0402,Condição na família,31,1,"{1: 'Pessoa de referência', 2: 'Cônjuge', 3: 'Filho', 4: 'Outro parente', 5: 'Agregado', 6: 'Pensionista', 7: 'Empregado doméstico', 8: 'Parente do empregado doméstico'}"
+V0403,Número da família,32,1,{}
+V0404,Cor ou raça,33,1,"{2: 'Branca', 4: 'Preta', 6: 'Amarela', 8: 'Parda', 0: 'Indígena', 9: 'Sem declaração'}"
+V0405,Tem mãe viva,34,1,"{1: 'Sim', 3: 'Não', 5: 'Não sabe'}"
+V0406,Mãe mora no domicílio,35,1,"{2: 'Sim', 4: 'Não'}"
+V0407,Número de ordem da mãe ,36,2,{99: 'Sem declaração'}
+V0408,Tem registro de nascimento,38,1,"{2: 'Sim', 4: 'Não', 6: 'Não sabe'}"
+V0409,Principal motivo de morar neste domícilio com outra(s) família(s),39,1,"{1: 'Financeiro', 3: 'Saúde', 5: 'Vontade própria', 7: 'Outro motivo'}"
+V0410,Intenção de se mudar e constituir outro domicílio,40,1,"{2: 'Sim', 4: 'Não'}"
+V4111,Vive em companhia de cônjuge ou companheiro(a),41,1,"{1: 'Sim', 3: 'Não, já viveu antes', 5: 'Não, nunca viveu'}"
+V4112,Natureza da união,42,1,"{1: 'Casamento civil e religioso', 3: 'Só casamento civil', 5: 'Só casamento religioso', 7: 'União consensual'}"
+V4011,Estado civil,43,1,"{1: 'Casado(a)', 3: 'Desquitado(a) ou separado(a) judicialmente', 5: 'Divorciado(a)', 7: 'Viúvo(a)', 0: 'Solteiro(a)'}"
+V0412,O informante desta parte foi,44,1,"{2: 'Própria pessoa', 4: 'Outro morador', 6: 'Não morador', 9: 'Sem declaração'}"
+V0501,Nasceu no município de residência,45,1,"{1: 'Sim', 3: 'Não '}"
+V0502,Nasceu na Unidade da Federação de residência,46,1,"{2: 'Sim', 4: 'Não '}"
+V5030,Lugar de nascimento,47,2,"{11: 'Rondônia', 12: 'Acre', 13: 'Amazonas', 14: 'Roraima', 15: 'Pará', 16: 'Amapá', 17: 'Tocantins', 21: 'Maranhão', 22: 'Piauí', 23: 'Ceará', 24: 'Rio Grande do Norte', 25: 'Paraíba', 26: 'Pernambuco', 27: 'Alagoas', 28: 'Sergipe', 29: 'Bahia', 31: 'Minas Gerais', 32: 'Espírito Santo', 33: 'Rio de Janeiro', 35: 'São Paulo', 41: 'Paraná', 42: 'Santa Catarina', 43: 'Rio Grande do Sul', 50: 'Mato Grosso do Sul', 51: 'Mato Grosso', 52: 'Goiás', 53: 'Distrito Federal', 88: 'Brasil', 98: 'País estrangeiro'}"
+V0504,Morou em outra Unidade da Federação ou país estrangeiro,49,1,"{2: 'Sim', 4: 'Não'}"
+V0505,Morava na Unidade da Federação na data de referência ,50,1,"{1: 'Sim', 3: 'Não'}"
+V5061,"Código 2 - na data de referência, tinha até 4 anos ininterruptos de residência na Unidade da Federação",51,1,"{2: 'Sim, até 4 anos'}"
+V5062,"Tempo de residência na Unidade da Federação 
+(até 4 anos)",52,1,"{0: 'Menos de 1 ano', 1: '1 ano', 2: '2 anos', 3: '3 anos', 4: '4 anos'}"
+V5063,"Código 4 - na data de referência, tinha de 5 a 9 anos ininterruptos de residência na Unidade da Federação",53,1,"{4: 'Sim, de 5 a 9 anos'}"
+V5064,Tempo de residência na Unidade da Federação (de 5 a 9 anos),54,1,"{5: '5 anos', 6: '6 anos', 7: '7 anos', 8: '8 anos', 9: '9 anos'}"
+V5065,"Código 6 - na data de referência, tinha 10 anos ou mais de residência na Unidade da Federação",55,1,"{6: 'Sim, 10 anos ou mais'}"
+V0507,Morava na Unidade da Federação há 5 anos da data de referência,56,1,"{1: 'Sim', 3: 'Não', 5: 'Não era nascido'}"
+V5080,Lugar de residência há 5 anos da data de referência,57,2,{}
+V5090,Lugar de residência anterior,59,2,{}
+V0510,Morava no município na data de referência,61,1,"{2: 'Sim', 4: 'Não'}"
+V0511,Morou em outro município na Unidade da Federação,62,1,"{1: 'Sim', 3: 'Não'}"
+V5121,"Código 2 - na data de referência, tinha até 4 anos ininterruptos de residência no município",63,1,"{2: 'Sim, até 4 anos'}"
+V5122,Tempo de residência no município (até 4 anos),64,1,"{0: 'Menos de 1 ano', 1: '1 ano', 2: '2 anos', 3: '3 anos', 4: '4 anos'}"
+V5123,"Código 4 - na data de referência, tinha de 5 a 9 anos ininterruptos de residência no município",65,1,"{4: 'Sim, de 5 a 9 anos'}"
+V5124,Tempo de residência no município (de 5 a 9 anos),66,1,"{5: '5 anos', 6: '6 anos', 7: '7 anos', 8: '8 anos', 9: '9 anos'}"
+V5125,"Código 6 - na data de referência, tinha 10 anos ou mais de residência no município",67,1,"{6: 'Sim, 10 anos ou mais'}"
+V5126,O informante desta parte foi,68,1,"{2: 'Própria pessoa', 4: 'Outro morador', 6: 'Não morador', 9: 'Sem declaração'}"
+V0601,Sabe ler e escrever,69,1,"{1: 'Sim', 3: 'Não'}"
+V0602,Frequenta escola ou creche,70,1,"{2: 'Sim', 4: 'Não'}"
+V6002,Rede de ensino,71,1,"{2: 'Pública', 4: 'Privada'}"
+V6020,Área da rede pública de ensino,72,1,"{2: 'Municipal', 4: 'Estadual', 6: 'Federal'}"
+V6003,Curso que frequenta,73,2,"{1: 'Regular do ensino fundamental ', 2: 'Regular do ensino médio', 3: 'Educação de jovens e adultos ou supletivo do ensino fundamental', 4: 'Educação de jovens e adultos ou supletivo do ensino médio', 5: 'Superior - de graduação', 6: 'Alfabetização de jovens e adultos', 7: 'Creche', 8: 'Classe de alfabetização - CA ', 9: 'Maternal, jardim de infância etc.', 10: 'Pré-vestibular', 11: 'Mestrado ou doutorado'}"
+V6030,Duração do ensino fundamental,75,1,"{1: '8 anos', 3: '9 anos'}"
+V0604,O curso que frequenta é seriado,76,1,"{2: 'Sim', 4: 'Não'}"
+V0605,Série que frequenta,77,1,"{1: 'Primeira', 2: 'Segunda', 3: 'Terceira', 4: 'Quarta', 5: 'Quinta', 6: 'Sexta', 7: 'Sétima', 8: 'Oitava', 0: 'Nona'}"
+V0606,Anteriormente frequentou escola ou creche,78,1,"{2: 'Sim', 4: 'Não'}"
+V6007,Curso mais elevado que frequentou anteriormente,79,2,"{1: 'Elementar (primário)', 2: 'Médio 1º ciclo (ginasial, etc.)', 3: 'Médio 2º ciclo (científico, clássico, etc.)', 4: 'Regular do ensino fundamental ou do 1º grau', 5: 'Regular do ensino médio ou do 2º grau', 6: 'Educação de jovens e adultos ou supletivo do ensino fundamental ou do 1º grau', 7: 'Educação de jovens e adultos ou supletivo de ensino médio ou do 2º grau', 8: 'Superior - graduação', 9: 'Mestrado ou doutorado', 10: 'Alfabetização de jovens e adultos', 11: 'Creche', 12: 'Classe de alfabetização - CA ', 13: 'Maternal, jardim de infância etc.'}"
+V6070,Duração do ensino fundamental que frequentou anteriormente,81,1,"{1: '8 anos', 3: '9 anos'}"
+V0608,Este curso que frequentou anteriormente era seriado,82,1,"{2: 'Sim', 4: 'Não'}"
+V0609,"Concluiu, com aprovação, pelo menos a 1ª série deste curso que frequentou anteriormente",83,1,"{1: 'Sim', 3: 'Não'}"
+V0610,"Última série concluída com aprovação, neste curso que frequentou anteriormente",84,1,"{1: 'Primeira', 2: 'Segunda', 3: 'Terceira', 4: 'Quarta', 5: 'Quinta', 6: 'Sexta', 7: 'Sétima', 8: 'Oitava', 0: 'Nona'}"
+V0611,Concluiu este curso que frequentou anteriormente,85,1,"{1: 'Sim', 3: 'Não'}"
+V06111,"Nos últimos três meses, utilizou a Internet em algum local",86,1,"{1: 'Sim', 3: 'Não'}"
+V06112,Tem telefone móvel celular para uso pessoal,87,1,"{1: 'Sim', 3: 'Não'}"
+V0612,O informante desta parte foi,88,1,"{2: 'Própria pessoa', 4: 'Outro morador', 6: 'Não morador', 9: 'Sem declaração'}"
+V0701,Teve algum trabalho no período de referência de 365 dias,89,1,"{1: 'Sim', 3: 'Não'}"
+V0702,"Exerceu tarefas em cultivo, pesca ou criação de animais, destinados à própria alimentação das pessoas moradoras no domicílio, no período de referência de 365 dias",90,1,"{2: 'Sim', 4: 'Não'}"
+V0703,"Exerceu tarefas em construção de prédio, cômodo, poço ou outras obras de construção, destinadas ao próprio uso das pessoas moradoras no domicílio, no período de referência de 365 dias",91,1,"{1: 'Sim', 3: 'Não'}"
+V0704,Trabalhou na semana de referência,92,1,"{2: 'Sim', 4: 'Não'}"
+V0705,Esteve afastado temporariamente do trabalho remunerado que tinha na semana de referência,93,1,"{1: 'Sim', 3: 'Não'}"
+V7060,Código da ocupação no trabalho do período de captação de 358 dias,94,4,{}
+V7070,Código da atividade principal do empreendimento no trabalho do período de captação de 358 dias,98,5,{}
+V0708,Posição na ocupação no trabalho do período de captação de 358 dias,103,1,"{1: 'Empregado ', 2: 'Trabalhador doméstico', 3: 'Conta própria', 4: 'Empregador', 5: 'Trabalhador não remunerado membro da unidade domiciliar', 6: 'Outro trabalhador não remunerado', 7: 'Trabalhador na produção para o próprio consumo', 8: 'Trabalhador na construção para o próprio uso'}"
+V7090,Código da ocupação no trabalho da semana de referência,104,4,{}
+V7100,Código da atividade principal do empreendimento no trabalho da semana de referência,108,5,{}
+V0711,Posição na ocupação no trabalho da semana de referência,113,1,"{1: 'Empregado', 2: 'Trabalhador doméstico', 3: 'Conta própria', 4: 'Empregador', 5: 'Trabalhador não remunerado membro da unidade domiciliar', 6: 'Outro trabalhador não remunerado', 7: 'Trabalhador na produção para o próprio consumo', 8: 'Trabalhador na construção para o próprio uso'}"
+V7121,Código 2 - recebia normalmente rendimento mensal em dinheiro no mês de referência no(s) trabalho(s) da semana de referência,114,1,{2: 'Existia rendimento em dinheiro'}
+V7122,Rendimento mensal em dinheiro que recebia normalmente no mês de referência no(s) trabalho(s) da semana de referência,115,12,{}
+V7124,Código 4 - recebia normalmente rendimento mensal em produtos ou mercadorias no mês de referência no(s) trabalho(s) da semana de referência,127,1,{4: 'Existia rendimento em valor de produtos ou mercadorias'}
+V7125,Rendimento mensal em valor dos produtos ou mercadorias que recebia normalmente no mês de referência no(s) trabalho(s) da semana de referência,128,12,{}
+V7127,Código 6 - recebia normalmente rendimento mensal somente em benefícios no mês de referência no(s) trabalho(s) da semana de referência,140,1,{6: 'Existia rendimento somente em benefícios'}
+V7128,Código 8 - era trabalhador não remunerado no(s) trabalho(s) da semana de referência,141,1,{8: 'Não remunerado'}
+V0713,Número de horas habitualmente trabalhadas por semana no(s) trabalho(s) da semana de referência,142,2,{}
+V0714,Cuidava dos afazeres domésticos na semana de referência,144,1,"{2: 'Sim', 4: 'Não'}"
+V0715,Número de horas que dedicava normalmente por semana aos afazeres domésticos,145,2,{}
+V0716,O informante desta parte foi,147,1,"{2: 'A própria pessoa', 4: 'Outro morador', 6: 'Não morador', 9: 'Ignorado'}"
+V9001,Trabalhou na semana de referência,148,1,"{1: 'Sim', 3: 'Não'}"
+V9002,Esteve afastado temporariamente do trabalho remunerado que tinha na semana de referência,149,1,"{2: 'Sim ', 4: 'Não'}"
+V9003,"Exerceu tarefas em cultivo, pesca ou criação de animais, destinados à própria alimentação das pessoas moradoras no domicílio, na semana de referência",150,1,"{1: 'Sim ', 3: 'Não'}"
+V9004,"Exerceu tarefas em construção de prédio, cômodo, poço ou outras obras de construção, destinadas ao próprio uso das pessoas moradoras no domicílio, na semana de referência",151,1,"{2: 'Sim ', 4: 'Não'}"
+V9005,Número de trabalhos que tinha na semana de referência,152,1,"{1: 'Um', 3: 'Dois', 5: 'Três ou mais'}"
+V9906,Código da ocupação no trabalho principal da semana de referência,153,4,{}
+V9907,Código da atividade principal do empreendimento no trabalho principal da semana de referência,157,5,{}
+V9008,Posição na ocupação no trabalho principal da semana de referência,162,2,"{1: 'Empregado permanente nos serviços auxiliares', 2: 'Empregado permanente na agricultura, silvicultura, ou criação de bovinos, bubalinos, caprinos, ovinos ou suínos', 3: 'Empregado permanente em outra atividade', 4: 'Empregado temporário', 5: 'Conta própria nos serviços auxiliares', 6: 'Conta própria na agricultura, silvicultura ou criação de bovinos, bubalinos, caprinos, ovinos ou suínos', 7: 'Conta própria em outra atividade', 8: 'Empregador nos serviços auxiliares', 9: 'Empregador na agricultura, silvicultura ou criação de bovinos, bubalinos, caprinos, ovinos ou suínos', 10: 'Empregador em outra atividade', 11: 'Trabalhador não remunerado membro da unidade domiciliar', 12: 'Outro trabalhador não remunerado', 13: 'Trabalhador na produção para o próprio consumo'}"
+V9009,Recebia do empregador alguma área para produção particular,164,1,"{1: 'Sim', 3: 'Não'}"
+V9010,Tinha parceria com o empregador,165,1,"{2: 'Sim', 4: 'Não'}"
+V9011,Foi contratado somente por pessoa(s) responsável(véis) pelo(s) estabelecimento(s) em que trabalhou como empregado temporário no mês de referência,166,1,"{1: 'Sim', 3: 'Não'}"
+V9012,"Foi contratado como empregado temporário, somente por intermediário (empresa empreiteira, empreiteiro, “gato”, etc.) no mês de referência",167,1,"{2: 'Sim', 4: 'Não'}"
+V9013,Teve ajuda de trabalhador não remunerado membro da unidade domiciliar no mês de referência,168,1,"{1: 'Sim', 3: 'Não'}"
+V9014,"Número de trabalhadores não remunerados membros da unidade domiciliar, independentemente da idade, que ajudaram à pessoa que era empregado no mês de referência",169,1,"{0: 'Onze ou mais', 2: 'Uma', 4: 'Duas', 6: 'Três a cinco', 8: 'Seis a dez'}"
+V9151,Código 1 - referente à 1ª parcela ou parcela única do empreendimento,170,1,{1: 'Existia 1ª parcela ou parcela única do empreendimento'}
+V9152,Área informada na 1ª parcela ou parcela única do empreendimento,171,11,{}
+V9154,"Equivalência em m², referente à unidade de medida de superfície em V9152",182,7,{}
+V9156,Código 3 - referente à 2ª parcela do empreendimento,189,1,{3: 'Existia 2ª parcela do empreendimento'}
+V9157,Área informada na 2ª parcela do empreendimento,190,11,{}
+V9159,"Equivalência em m², referente à unidade de medida de superfície em V9157",201,7,{}
+V9161,Código 5 - referente à 3ª parcela do empreendimento,208,1,{5: 'Existia 3ª parcela do empreendimento'}
+V9162,Área informada na 3ª parcela do empreendimento,209,11,{}
+V9164,"Equivalência em m², referente à unidade de medida de superfície em V9162",220,7,{}
+V9016,"Tinha pelo menos um empregado temporário, no mês de referência, no trabalho principal da semana de referência",227,1,"{2: 'Sim', 4: 'Não'}"
+V9017,"Número de empregados temporários, no mês de referência, no trabalho principal da semana de referência",228,1,"{1: 'Um', 3: 'Dois', 5: 'Três a cinco', 7: 'Seis a dez', 8: 'Onze ou mais'}"
+V9018,"Tinha pelo menos um empregado permanente, no mês de referência, no trabalho principal da semana de referência",229,1,"{2: 'Sim', 4: 'Não'}"
+V9019,"Número de empregados permanentes, no mês de referência, no trabalho principal da semana de referência",230,1,"{1: 'Um', 3: 'Dois', 5: 'Três a cinco', 7: 'Seis a dez', 8: 'Onze ou mais'}"
+V9201,Código 2 - referente à 1ª parcela ou parcela única do empreendimento,231,1,{2: 'Existia 1ª parcela ou parcela única do empreendimento.'}
+V9202,Área informada na 1ª parcela ou parcela única do empreendimento,232,11,{}
+V9204,"Equivalência em m², referente à unidade de medida de superfície em V9202",243,7,{}
+V9206,Código 4 - referente à 2ª parcela do empreendimento,250,1,{4: 'Existia 2ª parcela do empreendimento'}
+V9207,Área informada na 2ª parcela do empreendimento,251,11,{}
+V9209,"Equivalência em m², referente à unidade de medida de superfície em V9207",262,7,{}
+V9211,Código 6 - referente à 3ª parcela do empreendimento,269,1,{6: 'Existia 3ª parcela do empreendimento.'}
+V9212,Área informada na 3ª parcela do empreendimento,270,11,{}
+V9214,"Equivalência em m², referente à unidade de medida de superfície em V9212",281,7,{}
+V9021,Condição em relação ao empreendimento do grupamento agrícola,288,1,"{1: 'Parceiro', 2: 'Arrendatário', 3: 'Posseiro', 4: 'Cessionário', 5: 'Proprietário', 6: 'Outra condição'}"
+V9022,Parceria contratada neste trabalho,289,1,"{0: 'Outra', 2: 'Meia', 4: 'Terça', 6: 'Quarta', 8: 'Quinta'}"
+V9023,"Forma contratada de pagamento pelo uso do bem, móvel ou imóvel, arrendado para o empreendimento",290,1,"{1: 'Somente dinheiro', 2: 'Somente produto', 3: 'Somente serviço', 4: 'Dinheiro e produto', 5: 'Dinheiro e serviço', 6: 'Produto e serviço', 7: 'Dinheiro, produto e serviço'}"
+V9024,"Assumiu, previamente, o compromisso de vender uma parte da produção principal do empreendimento no período de referência de 365 dias",291,1,"{2: 'Sim', 4: 'Não'}"
+V9025,Vendeu alguma parte da produção principal do empreendimento no período de referência de 365 dias,292,1,"{1: 'Sim', 3: 'Não'}"
+V9026,"Comprador que adquiriu a totalidade, ou a maior parte, da produção principal do empreendimento que foi vendida no período de referência de 365 dias.",293,1,"{1: 'Empresa', 2: 'Cooperativa', 3: 'Governo', 4: 'Proprietário do bem utilizado para o empreendimento', 5: 'Intermediário particular', 6: 'Consumidor direto', 7: 'Outro comprador'}"
+V9027,Algum tipo de produção desenvolvida no empreendimento foi consumida como alimentação pelos membros da unidade domiciliar no mês de referência,294,1,"{1: 'Sim', 3: 'Não'}"
+V9028,"Parcela da alimentação consumida pelos membros da unidade domiciliar, no mês de referência, que foi retirada de produção desenvolvida no empreendimento",295,1,"{2: 'Até a metade', 4: 'Mais da metade'}"
+V9029,Posição na ocupação no trabalho principal da semana de referência,296,1,"{1: 'Empregado', 2: 'Trabalhador doméstico', 3: 'Conta própria', 4: 'Empregador', 5: 'Trabalhador não remunerado membro da unidade domiciliar', 6: 'Outro trabalhador não remunerado', 7: 'Trabalhador na construção para o próprio uso'}"
+V9030,A jornada normal desse trabalho estava totalmente compreendida no período de 5 horas da manhã às 10 horas da noite,297,1,"{2: 'Sim', 4: 'Não'}"
+V9031,A jornada normal desse trabalho estava totalmente compreendida no período noturno de 10 horas da noite às 5 horas da manhã seguinte,298,1,"{1: 'Sim', 3: 'Não'}"
+V9032,Setor do emprego no trabalho principal da semana de referência,299,1,"{2: 'Privado', 4: 'Público'}"
+V9033,Área do emprego no trabalho principal da semana de referência,300,1,"{1: 'Federal', 3: 'Estadual', 5: 'Municipal'}"
+V9034,"Era militar do Exército, Marinha de Guerra ou Aeronáutica no trabalho principal da semana de referência",301,1,"{2: 'Sim', 4: 'Não'}"
+V9035,Era funcionário público estatutário no trabalho principal da semana de referência,302,1,"{1: 'Sim', 3: 'Não'}"
+V9036,"Prestava serviço doméstico remunerado em mais de um domicílio, no mês de referência",303,1,"{2: 'Sim', 4: 'Não'}"
+V9037,Exercia habitualmente esse trabalho pelo menos uma vez por semana,304,1,"{1: 'Sim', 3: 'Não'}"
+V9038,"Número de dias por semana que, habitualmente, prestava serviço doméstico remunerado",305,1,{}
+V9039,"Número de dias por mês que, habitualmente, prestava serviço doméstico remunerado",306,1,{}
+V9040,"Número de pessoas ocupadas, no mês de referência, no empreendimento do trabalho principal da semana de referência",307,1,"{2: 'Duas', 4: 'Três a cinco', 6: 'Seis a dez', 8: 'Onze ou mais'}"
+V9041,"Forma contratada, verbalmente ou por escrito, para o cálculo da remuneração no trabalho principal da semana de referência",308,1,"{1: 'Somente por jornada de trabalho', 3: 'Somente por produção ou comissão', 5: 'Somente por tarefa ou empreitada', 7: 'Por jornada de trabalho e produção ou comissão', 8: 'Outra forma'}"
+V9042,Tinha carteira de trabalho assinada no trabalho principal da semana de referência ,309,1,"{2: 'Sim', 4: 'Não'}"
+V9043,Recebeu auxílio para moradia no mês de referência,310,1,"{1: 'Sim', 3: 'Não'}"
+V9044,Recebeu auxílio para alimentação no mês de referência,311,1,"{2: 'Sim', 4: 'Não'}"
+V9045,Recebeu auxílio para transporte no mês de referência,312,1,"{1: 'Sim', 3: 'Não'}"
+V9046,Recebeu auxílio para educação ou creche no mês de referência,313,1,"{2: 'Sim', 4: 'Não'}"
+V9047,Recebeu auxílio para saúde ou reabilitação no mês de referência,314,1,"{1: 'Sim', 3: 'Não'}"
+V9048,"Número de empregados, no mês de referência, no empreendimento do trabalho principal da semana de referência",315,1,"{0: 'Onze ou mais', 2: 'Um', 4: 'Dois', 6: 'Três a cinco', 8: 'Seis a dez'}"
+V9049,"Tinha pelo menos um sócio ocupado, no mês de referência, no empreendimento do trabalho principal da semana de referência",316,1,"{1: 'Sim', 3: 'Não'}"
+V9050,"Número de sócios ocupados, no mês de referência, no empreendimento do trabalho principal da semana de referência",317,1,"{2: 'Um', 4: 'Dois', 6: 'Três a cinco', 8: 'Seis ou mais'}"
+V9051,"Tinha pelo menos um trabalhador não remunerado, no mês de referência, no trabalho principal da semana de referência",318,1,"{1: 'Sim', 3: 'Não'}"
+V9052,"Número de trabalhadores não remunerados ocupados, no mês de referência, no trabalho principal da semana de referência",319,1,"{0: 'Onze ou mais', 2: 'Um', 4: 'Dois', 6: 'Três a cinco', 8: 'Seis a dez'}"
+V9531,"Código 1 - recebia normalmente rendimento mensal em dinheiro, no mês de referência, no trabalho principal da semana de referência",320,1,{1: 'Existia rendimento em dinheiro'}
+V9532,"Rendimento mensal em dinheiro que recebia normalmente, no mês de referência, no trabalho principal da semana de referência",321,12,{}
+V9534,"Código 3 - recebia normalmente rendimento mensal em produtos ou mercadorias, no mês de referência, no trabalho principal da semana de referência",333,1,{3: 'Existia rendimento em valor de produtos ou mercadorias'}
+V9535,"Rendimento mensal em valor dos produtos ou mercadorias que recebia normalmente, no mês de referência, no trabalho principal da semana de referência",334,12,{}
+V9537,"Código 5 - recebia normalmente rendimento mensal somente em benefícios, no mês de referência, no trabalho principal da semana de referência",346,1,{5: 'Existia rendimento somente em benefícios'}
+V90531,O empreendimento tem registro no Cadastro Nacional de Pessoa Jurídica - CNPJ,347,1,"{1: 'Sim', 3: 'Não', 5: 'Não sabe'}"
+V90532,Esse empreendimento possuía fatura ou nota fiscal para emitir aos clientes,348,1,"{1: 'Sim', 3: 'Não', 5: 'Não sabe'}"
+V90533,Esse empreendimento entregava contracheque a seus funcionários,349,1,"{1: 'Sim', 3: 'Não', 5: 'Não sabe'}"
+V9054,Tipo de estabelecimento ou onde era exercido o trabalho principal da semana de referência,350,1,"{1: 'Loja, oficina, fábrica, escritório, escola, repartição pública, galpão, etc.', 2: 'Fazenda, sítio, granja, chácara, etc.', 3: 'No domicílio em que morava', 4: 'Em domicílio de empregador, patrão, sócio ou freguês', 5: 'Em local designado pelo empregador, cliente ou freguês', 6: 'Em veículo automotor', 7: 'Em via ou área pública', 8: 'Outro'}"
+V9055,Morava em domicílio que estava no mesmo terreno ou área do estabelecimento em que tinha trabalho,351,1,"{1: 'Sim', 3: 'Não'}"
+V9056,Ia direto do domicílio em que morava para o trabalho,352,1,"{2: 'Sim', 4: 'Não'}"
+V9057,Tempo de percurso diário de ida da residência para o local de trabalho,353,1,"{1: 'Até 30 minutos', 3: 'Mais de 30 até 1 hora', 5: 'Mais de 1 até 2 horas', 7: 'Mais de 2 horas'}"
+V9058,Número de horas habitualmente trabalhadas por semana no trabalho principal da semana de referência,354,2,{}
+V9059,Era contribuinte para instituto de previdência no trabalho principal da semana de referência,356,1,"{1: 'Sim', 3: 'Não'}"
+V9060,Instituto de previdência para o qual contribuía no trabalho principal da semana de referência,357,1,"{2: 'Federal', 4: 'Estadual', 6: 'Municipal'}"
+V9611,"Número de anos no trabalho principal da semana de referência, contados até a data de referência",358,2,{}
+V9612,"Número de meses no trabalho principal da semana de referência, contados até a data de referência",360,2,{}
+V9062,Saiu de algum trabalho no período de captação de 358 dias,362,1,"{2: 'Sim', 4: 'Não'}"
+V9063,De quantos trabalhos saiu no período de captação de 358 dias,363,1,"{1: 'Um', 3: 'Dois', 5: 'Três ou mais'}"
+V9064,Número de meses que permaneceu nesse trabalho anterior no período de captação de 358 dias,364,2,{}
+V9065,Era empregado com carteira de trabalho assinada nesse trabalho anterior,366,1,"{1: 'Sim ', 3: 'Não'}"
+V9066,Recebeu seguro-desemprego depois que saiu desse emprego anterior,367,1,"{2: 'Sim ', 4: 'Não'}"
+V9067,Teve algum trabalho no período de captação de 358 dias,368,1,"{1: 'Sim ', 3: 'Não'}"
+V9068,"Exerceu tarefas em cultivo, pesca ou criação de animais, destinados à própria alimentação das pessoas moradoras no domicílio, no período de captação de 358 dias",369,1,"{2: 'Sim ', 4: 'Não'}"
+V9069,"Exerceu tarefas em construção de prédio, cômodo, poço ou outras obras de construção, destinadas ao próprio uso das pessoas moradoras no domicílio, no período de captação de 358 dias",370,1,"{1: 'Sim ', 3: 'Não'}"
+V9070,De quantos trabalhos saiu no período de captação de 358 dias,371,1,"{2: 'Um ', 4: 'Dois', 6: 'Três ou mais'}"
+V9971,Código da ocupação no trabalho anterior do período de captação de 358 dias ,372,4,{}
+V9972,Código da atividade principal do empreendimento no trabalho anterior do período de captação de 358 dias,376,5,{}
+V9073,Posição na ocupação no trabalho anterior do período de captação de 358 dias,381,2,"{1: 'Empregado permanente nos serviços auxiliares', 2: 'Empregado permanente na agricultura, silvicultura, ou criação de bovinos, bubalinos, caprinos, ovinos ou suínos', 3: 'Empregado permanente em outra atividade', 4: 'Empregado temporário', 5: 'Conta própria nos serviços auxiliares', 6: 'Conta própria na agricultura, silvicultura ou criação de bovinos, bubalinos, caprinos, ovinos ou suínos', 7: 'Conta própria em outra atividade', 8: 'Empregador nos serviços auxiliares', 9: 'Empregador na agricultura, silvicultura ou criação de bovinos, bubalinos, caprinos, ovinos ou suínos', 10: 'Empregador em outras atividades', 11: 'Trabalhador não remunerado membro da unidade domiciliar', 12: 'Outro trabalhador não remunerado', 13: 'Trabalhador na produção para o próprio consumo'}"
+V9074,Nesse emprego anterior recebia do empregador alguma área para produção particular,383,1,"{2: 'Sim', 4: 'Não'}"
+V9075,Nesse emprego anterior tinha parceria com o empregador,384,1,"{1: 'Sim', 3: 'Não'}"
+V9076,Condição em relação ao empreendimento agrícola nesse trabalho anterior,385,1,"{1: 'Parceiro', 2: 'Arrendatário', 3: 'Posseiro', 4: 'Cessionário', 5: 'Proprietário', 6: 'Outra condição'}"
+V9077,Posição na ocupação nesse trabalho anterior,386,1,"{1: 'Empregado', 2: 'Trabalhador doméstico', 3: 'Conta própria', 4: 'Empregador', 5: 'Trabalhador não remunerado membro da unidade domiciliar', 6: 'Outro trabalhador não remunerado', 7: 'Trabalhador na construção para o próprio uso'}"
+V9078,Setor do emprego nesse trabalho anterior,387,1,"{2: 'Privado', 4: 'Público'}"
+V9079,Área do emprego nesse trabalho anterior,388,1,"{1: 'Federal', 3: 'Estadual', 5: 'Municipal'}"
+V9080,"Era militar do Exército, Marinha de Guerra ou Aeronáutica nesse trabalho anterior",389,1,"{2: 'Sim', 4: 'Não'}"
+V9081,Era funcionário público estatutário nesse trabalho anterior,390,1,"{1: 'Sim', 3: 'Não'}"
+V9082,Prestava serviço doméstico remunerado em mais de um domicílio nos últimos 30 dias em que esteve nesse trabalho anterior,391,1,"{2: 'Sim', 4: 'Não'}"
+V9083,Tinha carteira de trabalho assinada nesse trabalho anterior,392,1,"{1: 'Sim', 3: 'Não'}"
+V9084,"Após sair desse emprego anterior, recebeu seguro-desemprego",393,1,"{2: 'Sim', 4: 'Não'}"
+V9085,Era contribuinte de instituto de previdência por esse trabalho anterior,394,1,"{1: 'Sim', 3: 'Não'}"
+V9861,Número de anos nesse trabalho anterior,395,2,{}
+V9862,Número de meses nesse trabalho anterior,397,2,{}
+V9087,Era associado a algum sindicato no mês de referência,399,1,"{1: 'Sim', 3: 'Não'}"
+V9088,Tipo de sindicato,400,1,"{1: 'Empregados urbanos', 2: 'Trabalhadores rurais', 3: 'Trabalhadores autônomos', 4: 'Trabalhadores avulsos', 5: 'Profissionais liberais', 6: 'Outro sindicato'}"
+V9891,Faixa de idade em que começou a trabalhar,401,1,"{1: 'Até 9 anos', 2: '10 a 14 anos', 3: '15 a 17 anos', 4: '18 a 19 anos', 5: '20 a 24 anos', 6: '25 a 29 anos', 7: '30 anos ou mais'}"
+V9892,Idade com que começou a trabalhar,402,2,{}
+V9990,Código da ocupação no trabalho secundário da semana de referência,404,4,{}
+V9991,Código da atividade principal do empreendimento no trabalho secundário da semana de referência,408,5,{}
+V9092,Posição na ocupação no trabalho secundário da semana de referência,413,1,"{1: 'Empregado', 2: 'Trabalhador doméstico', 3: 'Conta própria', 4: 'Empregador', 5: 'Trabalhador não remunerado membro da unidade domiciliar', 6: 'Outro trabalhador não remunerado'}"
+V9093,Setor do emprego nesse trabalho secundário,414,1,"{1: 'Privado', 3: 'Público'}"
+V9094,Área do emprego nesse trabalho secundário,415,1,"{2: 'Federal', 4: 'Estadual', 6: 'Municipal'}"
+V9095,"Era militar do Exército, Marinha de Guerra ou Aeronáutica nesse trabalho secundário",416,1,"{1: 'Sim', 3: 'Não'}"
+V9096,Era funcionário público estatutário nesse trabalho secundário,417,1,"{2: 'Sim', 4: 'Não'}"
+V9097,Tinha carteira de trabalho assinada nesse trabalho secundário ,418,1,"{1: 'Sim', 3: 'Não'}"
+V9981,"Código 2 - recebia normalmente rendimento mensal em dinheiro, no mês de referência, nesse trabalho secundário",419,1,{2: 'Existia rendimento em dinheiro'}
+V9982,"Rendimento mensal em dinheiro que recebia normalmente, no mês de referência, nesse trabalho secundário",420,12,{}
+V9984,"Código 4 - recebia normalmente rendimento mensal em produtos ou mercadorias, no mês de referência, nesse trabalho secundário",432,1,{4: 'Existia rendimento em valor de produtos ou mercadorias'}
+V9985,"Rendimento mensal em valor dos produtos ou mercadorias que recebia normalmente, no mês de referência, nesse trabalho secundário",433,12,{}
+V9987,"Código 6 - recebia normalmente rendimento mensal somente em benefícios, no mês de referência, nesse trabalho secundário",445,1,{6: 'Existia rendimento somente em benefícios'}
+V9099,Era contribuinte de instituto de previdência nesse trabalho secundário,446,1,"{1: 'Sim', 3: 'Não'}"
+V9100,Instituto de previdência para o qual contribuía nesse emprego secundário,447,1,"{2: 'Federal', 4: 'Estadual', 6: 'Municipal'}"
+V9101,Número de horas habitualmente trabalhadas por semana nesse trabalho secundário,448,2,{}
+V1021,"Código 2 - recebia normalmente rendimento mensal em dinheiro, no mês de referência, no(s) outro(s) trabalho(s) da semana de referência",450,1,{2: 'Existia rendimento em dinheiro'}
+V1022,"Rendimento mensal em dinheiro que recebia normalmente, no mês de referência, no(s) outro(s) trabalho(s) da semana de referência",451,12,{}
+V1024,"Código 4 - recebia normalmente rendimento mensal em produtos ou mercadorias, no mês de referência, no(s) outro(s) trabalho(s) da semana de referência",463,1,{4: 'Existia rendimento em valor de produtos ou mercadorias'}
+V1025,"Rendimento mensal em valor dos produtos ou mercadorias que recebia normalmente, no mês de referência, no(s) outro(s) trabalho(s) da semana de referência",464,12,{}
+V1027,"Código 6 - recebia normalmente rendimento mensal somente em benefícios no mês de referência, no(s) outro(s) trabalho(s) da semana de referência",476,1,{6: 'Existia rendimento somente em benefícios'}
+V1028,"Código 8 - era trabalhador não remunerado, no mês de referência, no(s) outro(s) trabalho(s) da semana de referência",477,1,{8: 'Não remunerado'}
+V9103,"Era contribuinte de instituto de previdência, por esse(s) outro(s) trabalho(s) da semana de referência",478,1,"{1: 'Sim', 3: 'Não'}"
+V9104,Instituto de previdência para o qual contribuía nesse(s) outro(s) trabalho(s) da semana de referência,479,1,"{2: 'Federal', 4: 'Estadual', 6: 'Municipal'}"
+V9105,Número de horas habitualmente trabalhadas por semana nesse(s) outro(s) trabalho(s) da semana de referência,480,2,{}
+V9106,Teve algum trabalho antes do período de referência de 365 dias,482,1,"{2: 'Sim', 4: 'Não'}"
+V9107,"Exerceu tarefas em cultivo, pesca ou criação de animais, destinados à própria alimentação das pessoas moradoras no domicílio, antes do período de referência de 365 dias",483,1,"{1: 'Sim', 3: 'Não'}"
+V9108,"Exerceu tarefas em construção de prédio, cômodo, poço ou outras obras de construção, destinadas ao próprio uso das pessoas moradoras no domicílio,  antes do período de referência de 365 dias",484,1,"{2: 'Sim', 4: 'Não'}"
+V1091,"Número de anos, contados até a data de referência, desde que saiu do último trabalho",485,2,{}
+V1092,"Número de meses, contados até a data de referência, desde que saiu do último trabalho",487,2,{}
+V9910,Código da ocupação no útimo trabalho que teve no período de referência de menos de 4 anos,489,4,{}
+V9911,Código da atividade principal do empreendimento nesse último trabalho que teve no período de referência de menos de 4 anos,493,5,{}
+V9112,Posição na ocupação no último trabalho no período de referência de menos de 4 anos,498,1,"{1: 'Empregado', 2: 'Trabalhador doméstico', 3: 'Conta própria', 4: 'Empregador', 5: 'Trabalhador não remunerado membro da unidade domiciliar', 6: 'Outro trabalhador não remunerado', 7: 'Trabalhador na produção para o próprio consumo', 8: 'Trabalhador na construção para o próprio uso'}"
+V9113,Era militar ou funcionário público estatutário nesse último trabalho ,499,1,"{1: 'Sim', 3: 'Não '}"
+V9114,Tinha carteira de trabalho assinada nesse último trabalho ,500,1,"{2: 'Sim', 4: 'Não '}"
+V9115,Tomou alguma providência para conseguir trabalho na semana de referência,501,1,"{1: 'Sim', 3: 'Não'}"
+V9116,Tomou alguma providência para conseguir trabalho no período de captação de 23 dias,502,1,"{2: 'Sim', 4: 'Não'}"
+V9117,Tomou alguma providência para conseguir trabalho no período de captação de 30 dias,503,1,"{1: 'Sim', 3: 'Não'}"
+V9118,Tomou alguma providência para conseguir trabalho no período de captação de 305 dias,504,1,"{2: 'Sim', 4: 'Não'}"
+V9119,Última providência que tomou para conseguir trabalho no período de referência de 365 dias,505,1,"{0: 'Nenhuma', 1: 'Consultou empregadores', 2: 'Fez concurso', 3: 'Inscreveu-se em concurso', 4: 'Consultou agência ou sindicato', 5: 'Colocou ou respondeu anúncio', 6: 'Consultou parente, amigo ou colega', 7: 'Tomou medida para iniciar negócio', 8: 'Outra providência'}"
+V9120,"Era contribuinte de alguma entidade de previdência privada, no mês de referência",506,1,"{2: 'Sim', 4: 'Não'}"
+V9121,Cuidava dos afazeres domésticos na semana de referência,507,1,"{1: 'Sim', 3: 'Não'}"
+V9921,Número de horas que dedicava normalmente por semana aos afazeres domésticos,508,2,{}
+V9122,"Era aposentado de instituto de previdência federal (INSS), estadual ou municipal ou do governo federal na semana de referência",510,1,"{2: 'Sim', 4: 'Não'}"
+V9123,"Era pensionista de instituto de previdência federal (INSS), estadual ou municipal ou do governo federal na semana de referência",511,1,"{1: 'Sim', 3: 'Não'}"
+V9124,"Recebia normalmente rendimento que não era proveniente de trabalho (pensão alimentícia ou de fundo de pensão, abono de permanência, aluguel, doação, juros de caderneta de poupança, dividendos ou outro qualquer) no mês de referência",512,1,"{2: 'Sim', 4: 'Não', 9: 'Sem declaração'}"
+V1251,"Código 01 - recebia normalmente rendimento de aposentadoria de instituto de previdência ou do governo federal, no mês de referência",513,2,{1: 'Existia rendimento de aposentadoria de instituto de previdência ou do governo federal'}
+V1252,"Rendimento de aposentadoria de instituto de previdência ou do governo federal que recebia, normalmente, no mês de referência",515,12,{}
+V1254,"Código 02 - recebia normalmente rendimento de pensão de instituto de previdência ou do governo federal, no mês de referência",527,2,{2: 'Existia rendimento de pensão do instituto de previdência ou do governo federal'}
+V1255,"Rendimento de pensão de instituto de previdência ou do governo federal que recebia, normalmente, no mês de referência",529,12,{}
+V1257,"Código 03 - recebia normalmente rendimento de outro tipo de aposentadoria, no mês de referência",541,2,{3: 'Existia rendimento de outro tipo de aposentadoria'}
+V1258,"Rendimento de outro tipo de aposentadoria que recebia, normalmente, no mês de referência",543,12,{}
+V1260,"Código 04 - recebia normalmente rendimento de outro tipo de pensão, no mês de referência",555,2,{4: 'Existia rendimento de outro tipo de pensão'}
+V1261,"Rendimento de outro tipo de pensão que recebia, normalmente, no mês de referência",557,12,{}
+V1263,"Código 05 - recebia normalmente rendimento de abono de permanência, no mês de referência",569,2,{5: 'Existia rendimento de abono de permanência'}
+V1264,"Rendimento de abono de permanência que recebia, normalmente, no mês de referência",571,12,{}
+V1266,"Código 06 - recebia normalmente rendimento de aluguel, no mês de referência",583,2,{6: 'Existia rendimento de aluguel'}
+V1267,"Rendimento de aluguel que recebia, normalmente, no mês de referência",585,12,{}
+V1269,"Código 07 - recebia normalmente rendimento de doação de não morador, no mês de referência",597,2,{7: 'Existia rendimento de doação de não morador'}
+V1270,"Rendimento de doação de não morador que recebia, normalmente, no mês de referência",599,12,{}
+V1272,"Código 08 - recebia normalmente juros de caderneta de poupança ou de outras aplicações financeiras, dividendos, programas sociais ou outros rendimentos, no mês de referência",611,2,"{8: 'Existiam rendimento de juros de caderneta de poupança ou de outras aplicações, dividendos, programas sociais ou outros rendimentos'}"
+V1273,"Juros de caderneta de poupança e de outras aplicações financeiras, dividendos, programas sociais e outros rendimentos que recebia, normalmente, no mês de referência",613,12,{}
+V9126,O informante desta parte foi,625,1,"{2: 'A própria pessoa', 4: 'Outro morador', 6: 'Não morador'}"
+V1101,Teve algum filho nascido vivo até a data de referência,626,1,"{1: 'Sim', 3: 'Não'}"
+V1141,"Número de filhos tidos, do sexo masculino, que moravam no domicílio",627,2,{}
+V1142,"Número de filhos tidos, do sexo feminino, que moravam no domicílio",629,2,{}
+V1151,"Número de filhos tidos, do sexo masculino, ainda vivos que moravam em outro local qualquer",631,2,{}
+V1152,"Número de filhos tidos, do sexo feminino, ainda vivos que moravam em outro local qualquer",633,2,{}
+V1153,"Código 5 - Não sabe o número de filhos tidos, do sexo masculino, que moravam em outro local qualquer",635,1,{5: 'Não sabe'}
+V1154,"Código 7 - Não sabe o número de filhos tidos, do sexo feminino, que moravam em outro local qualquer",636,1,{7: 'Não sabe'}
+V1161,"Número de filhos tidos, do sexo masculino, que morreram",637,2,{}
+V1162,"Número de filhos tidos, do sexo feminino, que morreram",639,2,{}
+V1163,"Código 6 - Não sabe o número de filhos tidos, do sexo masculino, que já morreram",641,1,{6: 'Não sabe'}
+V1164,"Código 8 - Não sabe o número de filhos tidos, do sexo feminino, que já morreram",642,1,{8: 'Não sabe'}
+V1107,Sexo do último filho tido nascido vivo até a data de referência,643,1,"{1: 'Masculino', 3: 'Feminino', 5: 'Não sabe'}"
+V1181,Mês de nascimento do último filho tido nascido vivo,644,2,{}
+V1182,Ano de nascimento do último filho tido nascido vivo,646,4,{}
+V1109,O último filho tido nascido vivo ainda estava vivo na data de referência,650,1,"{1: 'Sim', 3: 'Não', 5: 'Não sabe'}"
+V1110,"Teve algum filho, com 7 meses ou mais de gestação, que nasceu morto até a data de referência",651,1,"{2: 'Sim', 4: 'Não'}"
+V1111,"Número de filhos tidos nascidos mortos, do sexo masculino, até a data de referência",652,2,{}
+V1112,"Número de filhos tidos nascidos mortos, do sexo feminino, até a data de referência",654,2,{}
+V1113,"Código 5 - Não sabe o número de filhos tidos nascidos mortos, do sexo masculino, até a data de referência",656,1,{5: 'Não sabe'}
+V1114,"Código 7 - Não sabe o número de filhos tidos nascidos mortos, do sexo feminino, até a data de referência",657,1,{7: 'Não sabe'}
+V1115,O informante desta parte foi,658,1,"{1: 'A própria pessoa', 3: 'Outro morador', 5: 'Não morador', 9: 'Sem declaração'}"
+V4801,"Nível de ensino, duração do ensino fundamental e série que frequentavam 
+(todos os estudantes)",659,2,"{1: 'Maternal, jardim de infância etc.', 2: 'Classe de alfabetização', 3: 'Alfabetização de adultos', 4: '1ª série do ensino fundamental regular em 8 anos', 5: '2ª série do ensino fundamental regular em 8 anos', 6: '3ª série do ensino fundamental regular em 8 anos', 7: '4ª série do ensino fundamental regular em 8 anos', 8: '5ª série do ensino fundamental regular em 8 anos', 9: '6ª série do ensino fundamental regular em 8 anos', 10: '7ª série do ensino fundamental regular em 8 anos', 11: '8ª série do ensino fundamental regular em 8 anos', 12: '1ª série do ensino fundamental regular em 9 anos', 13: '2ª série do ensino fundamental regular em 9 anos', 14: '3ª série do ensino fundamental regular em 9 anos', 15: '4ª série do ensino fundamental regular em 9 anos', 16: '5ª série do ensino fundamental regular em 9 anos', 17: '6ª série do ensino fundamental regular em 9 anos', 18: '7ª série do ensino fundamental regular em 9 anos', 19: '8ª série do ensino fundamental regular em 9 anos', 20: '9ª série do ensino fundamental regular em 9 anos', 21: 'Educação de jovens e adultos do ensino fundamental (seriado e não seriado)', 22: 'Regular do ensino médio ', 23: 'Educação de jovens e adultos do ensino médio', 24: 'Pré-vestibular', 25: 'Superior, inclusive mestrado e doutorado'}"
+V4802,"Nível de ensino e grupos de séries do ensino fundamental que frequentavam 
+(todos os estudantes)",661,2,"{1: 'Maternal, jardim de infância etc.', 2: 'Classe de alfabetização', 3: 'Alfabetização de adultos', 4: '1ª a 4ª séries do ensino fundamental regular em 8 anos ou de educação de jovens e adultos', 5: '5ª a 8ª séries do ensino fundamental regular em 8 anos ou de educação de jovens e adultos', 6: '1ª série do ensino fundamental regular em 9 anos', 7: '2ª a 5ª séries do ensino fundamental regular em 9 anos ', 8: '6ª a 9ª séries do ensino fundamental regular em 9 anos ', 9: 'Educação de jovens e adultos não seriado do ensino fundamental', 10: 'Ensino médio, inclusive pré-vestibular', 11: 'Superior, inclusive mestrado ou doutorado'}"
+V4803,"Anos de estudo 
+(todas as pessoas)",663,2,"{1: 'Sem instrução e menos de 1 ano', 2: '1 ano', 3: '2 anos', 4: '3 anos', 5: '4 anos', 6: '5 anos', 7: '6 anos', 8: '7 anos', 9: '8 anos', 10: '9 anos', 11: '10 anos', 12: '11 anos', 13: '12 anos', 14: '13 anos', 15: '14 anos', 16: '15 anos ou mais', 17: 'Não determinados '}"
+V4704,Condição de atividade na semana de referência para pessoas de 10 anos ou mais de idade,665,1,"{1: 'Economicamente ativas', 2: 'Não economicamente ativas'}"
+V4805,Condição de ocupação na semana de referência para pessoas de 10 anos ou mais de idade,666,1,"{1: 'Ocupadas ', 2: 'Desocupadas '}"
+V4706,Posição na ocupação no trabalho principal da semana de referência para pessoas de 10 anos ou mais de idade,667,2,"{1: 'Empregado com carteira de trabalho assinada', 2: 'Militar', 3: 'Funcionário público estatutário', 4: 'Outro empregado sem carteira de trabalho assinada', 6: 'Trabalhador doméstico com carteira de trabalho assinada', 7: 'Trabalhador doméstico sem carteira  de trabalho assinada', 9: 'Conta própria', 10: 'Empregador', 11: 'Trabalhador na produção para o próprio consumo', 12: 'Trabalhador na construção para o próprio uso', 13: 'Não remunerado'}"
+V4707,Horas habitualmente trabalhadas por semana em todos os trabalhos da semana de referência para pessoas de 10 anos ou mais de idade,669,1,"{1: 'Até 14 horas', 2: '15 a 39 horas', 3: '40 a 44 horas', 4: '45 a 48 horas', 5: '49 horas ou mais'}"
+V4808,Atividade principal do empreendimento do trabalho principal da semana de referência para pessoas de 5 anos ou mais de idade,670,1,"{1: 'Agrícola', 2: 'Não agrícola'}"
+V4809,Grupamentos de atividade principal do empreendimento do trabalho principal da semana de referência para pessoas de 10 anos ou mais de idade,671,2,"{1: 'Agrícola', 2: 'Outras atividades industriais', 3: 'Indústria de transformação', 4: 'Construção', 5: 'Comércio e reparação', 6: 'Alojamento e alimentação', 7: 'Transporte, armazenagem e comunicação', 8: 'Administração pública', 9: 'Educação, saúde e serviços sociais', 10: 'Serviços domésticos', 11: 'Outros serviços coletivos, sociais e pessoais', 12: 'Outras atividades', 13: 'Atividades maldefinidas '}"
+V4810,Grupamentos ocupacionais do trabalho principal da semana de referência para pessoas de 10 anos ou mais de idade,673,2,"{1: 'Dirigentes em geral', 2: 'Profissionais das ciências e das artes', 3: 'Técnicos de nível médio', 4: 'Trabalhadores de serviços administrativos', 5: 'Trabalhadores dos serviços', 6: 'Vendedores e prestadores de serviço do comércio', 7: 'Trabalhadores agrícolas', 8: 'Trabalhadores da produção de bens e serviços e de reparação e manutenção', 9: 'Membros das forças armadas e auxiliares', 10: 'Ocupações maldefinidas '}"
+V4711,Contribuição para instituto de previdência em qualquer trabalho da semana de referência para pessoas de 10 anos ou mais de idade,675,1,"{1: 'Contribuinte', 2: 'Não contribuinte'}"
+V4812,Atividade principal do empreendimento no trabalho principal do período de referência de 365 dias para pessoas de 5 anos ou mais de idade,676,1,"{1: 'Agrícola', 2: 'Não agrícola'}"
+V4713,Condição de atividade no trabalho principal do período de referência de 365 dias para pessoas de 10 anos ou mais de idade,677,1,"{1: 'Economicamente ativas', 2: 'Não economicamente ativas'}"
+V4814,Condição de ocupação no período de referência de 365 dias das pessoas de 10 anos ou mais de idade,678,1,"{1: 'Ocupadas ', 2: 'Desocupadas '}"
+V4715,Posição na ocupação no trabalho principal do período de referência de 365 dias para pessoas de 10 anos ou mais de idade,679,2,"{1: 'Empregado com carteirade trabalho assinada', 2: 'Militar', 3: 'Funcionário público estatutário', 4: 'Outro empregado sem carteira de trabalho assinada', 6: 'Trabalhador doméstico com carteira de trabalho assinada', 7: 'Trabalhador doméstico sem carteira de trabalho assinada', 9: 'Conta própria', 10: 'Empregador', 11: 'Não remunerado', 12: 'Trabalhador na produção para o próprio consumo', 13: 'Trabalhador na construção para o próprio uso'}"
+V4816,Grupamentos de atividade no trabalho principal do período de referência de 365 dias para pessoas de 10 anos ou mais de idade,681,2,"{1: 'Agrícola', 2: 'Outras atividades industriais', 3: 'Indústria de transformação', 4: 'Construção', 5: 'Comércio e reparação', 6: 'Alojamento e alimentação', 7: 'Transporte, armazenagem e comunicação', 8: 'Administração pública', 9: 'Educação, saúde e serviços sociais', 10: 'Serviços domésticos', 11: 'Outros serviços coletivos, sociais e pessoais', 12: 'Outras atividades', 13: 'Atividades maldefinidas '}"
+V4817,Grupamentos ocupacionais do trabalho principal do período de referência de 365 dias para pessoas de 10 anos ou mais de idade,683,2,"{1: 'Dirigentes em geral', 2: 'Profissionais das ciências e das artes', 3: 'Técnicos de nível médio', 4: 'Trabalhadores de serviços administrativos', 5: 'Trabalhadores dos serviços', 6: 'Vendedores e prestadores de serviço do comércio', 7: 'Trabalhadores agrícolas', 8: 'Trabalhadores da produção de bens e serviços e de reparação e manutenção', 9: 'Membros das forças armadas e auxiliares', 10: 'Ocupações maldefinidas '}"
+V4718,Rendimento mensal do trabalho principal para pessoas de 10 anos ou mais de idade,685,12,{}
+V4719,Rendimento mensal de todos os trabalhos para pessoas de 10 anos ou mais de idade,697,12,{}
+V4720,Rendimento mensal de todas as fontes para pessoas de 10 anos ou mais de idade,709,12,{}
+V4721,"Rendimento mensal domiciliar para todas as unidades domiciliares (exclusive o rendimento das pessoas cuja condição na unidade domiciliar era pensionista, empregado doméstico ou parente do empregado doméstico e das pessoas de menos de 10 anos de idade)",721,12,{}
+V4722,"Rendimento mensal familiar para todas as unidades domiciliares (exclusive o rendimento das pessoas cuja condição na família era pensionista, empregado doméstico ou parente do empregado doméstico e pessoas de menos de 10 anos de idade)",733,12,{}
+V4723,"Tipo de família para todas as unidades domiciliares (em todos os tipos de família podem existir pessoas cuja condição na família era outro parente, agregado, pensionista, empregado doméstico ou parente do empregado doméstico)",745,2,"{1: 'Casal sem filhos', 2: 'Casal com todos os filhos menores de 14 anos', 3: 'Casal com todos os filhos de 14 anos ou mais', 4: 'Casal com filhos menores de 14 anos e de 14 anos ou mais', 6: 'Mãe com todos os filhos menores de 14 anos', 7: 'Mãe com todos os filhos de 14 anos ou mais', 8: 'Mãe com filhos menores de 14 anos e de 14 anos ou mais', 10: 'Outros tipos de família'}"
+V4724,"Número de componentes da família (exclusive as pessoas cuja condição na família era pensionista, empregado doméstico ou parente do empregado doméstico)",747,2,{}
+V4727,Código de área censitária,749,1,"{1: 'Região metropolitana', 2: 'Autorrepresentativo', 3: 'Não autorrepresentativo'}"
+V4728,Código de situação censitária,750,1,"{1: 'Urbana - Cidade ou vila, área urbanizada', 2: 'Urbana - Cidade ou vila, área não-urbanizada', 3: 'Urbana - Área urbana isolada', 4: 'Rural - Aglomerado rural de extensão urbana', 5: 'Rural - Aglomerado rural, isolado, povoado', 6: 'Rural - Aglomerado rural, isolado, núcleo', 7: 'Rural - Aglomerado rural, isolado, outros aglomerados', 8: 'Rural – Zona rural exclusive aglomerado rural '}"
+V4729,Peso da pessoa,751,5,{}
+V4732,Peso da família,756,5,{}
+V4735,"Controle da tabulação de fecundidade, para mulheres com 10 anos ou mais de idade",761,1,"{0: 'Não usado para tabulação ', 1: 'Usado para tabulação'}"
+V4838,"Grupos de anos de estudo
+(todas as pessoas)",762,1,"{1: 'Sem instrução e menos de 1 ano', 2: '1 a 3 anos', 3: '4 a 7 anos', 4: '8 a 10 anos', 5: '11 a 14 anos', 6: '15 anos ou mais', 7: 'Não determinados '}"
+V6502,Criança de 5 a 17 anos de idade,763,1,"{0: 'Não', 1: 'Sim'}"
+V4741,"Número de componentes do domícilio (exclusive as pessoas cuja condição na unidade domiciliar era pensionista, empregado doméstico ou parente do empregado doméstico) ",764,2,{}
+V4742,Rendimento mensal domiciliar per capita ,766,12,{}
+V4743,Faixa de rendimento mensal domiciliar per capita ,778,2,"{0: 'Sem rendimento', 1: 'Até ¼ salário mínimo', 2: 'Mais de ¼ até ½ salário mínimo', 3: 'Mais de ½ até 1 salário mínimo', 4: 'Mais de 1 até 2 salários mínimos', 5: 'Mais de 2 até 3 salários mínimos', 6: 'Mais de 3 até 5 salários mínimos', 7: 'Mais de 5 salários mínimos', 99: 'Sem declaração'}"
+V4745,Nível de instrução mais elevado alcançado (todas as pessoas),780,1,"{1: 'Sem instrução', 2: 'Fundamental incompleto ou equivalente', 3: 'Fundamental completo ou equivalente', 4: 'Médio incompleto ou equivalente', 5: 'Médio completo ou equivalente', 6: 'Superior incompleto ou equivalente', 7: 'Superior completo ', 8: 'Não determinado'}"
+V4746,Situação de ocupação na semana de referência das pessoas de 5 anos ou mais de idade,781,1,"{1: 'Ocupadas', 2: 'Não ocupadas'}"
+V4747,Atividade principal do empreendimento do trabalho principal da semana de referência para pessoas de 10 anos ou mais de idade,782,1,"{1: 'Agrícola', 2: 'Não agrícola'}"
+V4748,Atividade principal do empreendimento do trabalho principal do período de referência de 365 dias para pessoas de 10 anos ou mais de idade,783,1,"{1: 'Agrícola', 2: 'Não agrícola'}"
+V4749,Situação de ocupação no período de referência de 365 dias das pessoas de 5 anos ou mais de idade,784,1,"{1: 'Ocupadas', 2: 'Não ocupadas'}"
+V4750,Rendimento mensal familiar per capita ,785,12,{}
+V9993,data de geração do arquivo de microdados,797,8,{}
